@@ -5,7 +5,7 @@ title: Epistemic twins
 
 # Stop benchmarking LLM knowledge.<br>Start mapping it.
 
-Epistemic twins turn parametric LLMs into symbolic, inspectable resources. Explore the twins we have constructed.
+Epistemic twins turn blackbox LLMs into symbolic, inspectable resources. Explore the twins we have constructed.
 
 <details class="abstract" markdown="1">
 <summary>Read the abstract <span class="paper-link">· <a href="https://zenodo.org/records/22661249">Read the paper ↗</a></span></summary>
