@@ -5,11 +5,18 @@ title: Epistemic twins
 
 # Stop benchmarking LLM knowledge.<br>Start mapping it.
 
+Epistemic twins turn LLM knowledge into explicit, inspectable resources. Explore the knowledge bases and encyclopedias we have constructed.
+
+<details class="abstract" markdown="1">
+<summary>Read the abstract <span class="paper-link">· <a href="https://zenodo.org/records/22661249">Read the paper ↗</a></span></summary>
+
 Large Language Models (LLMs) are opaque artifacts. Subsymbolic by design, they are defined by billions of numeric weights that interact in a largely inscrutable manner. Current analysis paradigms are either black-box benchmarks that test model performance on pre-defined tasks, or mechanistic interpretability approaches that trace back outputs to specific weights. Both analysis methods are limited by the experimenter’s hypothesis space - one must know what to look for to find it. We propose **Epistemic Twins**, large-scale symbolic approximations of LLMs in human-readable formats. This enables the comprehensive inspection of factual knowledge (or beliefs) inherent in the model without predefining hypotheses, facilitating large-scale auditing towards better understanding and explainability.
 
 From [*Epistemic Twins: Enabling a Symbolic Science of Language Model Knowledge*](https://zenodo.org/records/22661249), Simon Razniewski, Shrestha Ghosh, Luca Giordano, Yujia Hu, Josua Kowalzik, and Tuan-Phong Nguyen. AKBC 2026.
 
-## Epistemic twins we produced
+</details>
+
+## Twins we produced
 
 ### Open-domain epistemic twins
 
