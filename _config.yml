@@ -1,7 +1,7 @@
 title: Epistemic twins
 description: "Stop benchmarking LLM knowledge. Start mapping it."
-url: "https://knowledge-aware-ai.github.io"
-baseurl: "/epistemic-twins"
+url: "https://epistemic-twins.scads.ai"
+baseurl: ""
 markdown: kramdown
 kramdown:
   input: GFM
