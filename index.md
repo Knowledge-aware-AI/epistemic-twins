@@ -35,3 +35,29 @@ From [*Epistemic Twins: Enabling a Symbolic Science of Language Model Knowledge*
 | The Big Bang Theory | GPT-4.1-mini | miniGPTKB (GPTKB 1.x) | 219 entities; 1,295 triples | [Download SQLite](https://github.com/Knowledge-aware-AI/miniGPTKB/raw/refs/heads/main/KBs/tbbtGPTKB/tbbtGPTKB.db) | 102.40 kB | [Findings EACL 2026](https://aclanthology.org/2026.findings-eacl.113/) |
 | DAX 40 | GPT-4.1-mini | miniGPTKB (GPTKB 1.x) | 362 entities; 2,056 triples | [Download SQLite](https://github.com/Knowledge-aware-AI/miniGPTKB/raw/refs/heads/main/KBs/dax40GPTKB/dax40GPTKB.db) | 131.07 kB | [Findings EACL 2026](https://aclanthology.org/2026.findings-eacl.113/) |
 | Dresden | GPT-5-mini | LLMpedia | 1,000 articles | [Browse collection](https://llmpedia.net/dresden/index.html) | — | [EMNLP 2026](https://arxiv.org/abs/2603.24080) |
+
+## FAQ
+
+### What is this good for?
+
+LLMs are a prime example of latent knowledge representation, i.e., there is no obvious way to read them as a human by looking at their parameters. Benchmarks only sample them by what the experimenters choose to ask. With epistemic twins, we aim to extract the entirety of their factual knowledge, for human inspection and auditing.
+
+### LLM answers are sensitive to minor reformulations in prompts. Do your twins really capture what the models believe in (precision)?
+
+Fair objection. Our twins are a simplification of what LLMs really are, and “all models are wrong, but some are useful”. Defining LLM knowledge is an [active research field](https://arxiv.org/abs/2405.21030). Depending on the protocol, we find that LLMs strongly believe in 76–90% of statements in our twins.
+
+### LLM answers are sensitive to minor reformulations in prompts. Do your twins really capture all that the models believe in (recall)?
+
+For monetary reasons, none of our open-domain twins has exhausted the LLM's internal knowledge graph yet. All were ad-hoc terminated. The domain-specific twins, in turn, represent complete graph exploration. Still, we can't rule out further beliefs.
+
+### But don't LLMs know more than facts?
+
+Indeed, LLMs know about language, commonsense properties and rules, capabilities (how to rhyme, or construct recipes), and more. These types of knowledge are out of scope so far.
+
+### This sounds cool, how can I get started?
+
+Download our twins and play with them. Or, [get the code](https://github.com/Knowledge-aware-AI/) and construct your own twins.
+
+### Can you construct a twin for me?
+
+That might be possible. Please [email us](mailto:kaai@tu-dresden.de) your desired model and topical focus, and we will get back to you.
