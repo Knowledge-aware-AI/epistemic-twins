@@ -60,4 +60,4 @@ Download our twins and play with them. Or, [get the code](https://github.com/Kno
 
 ### Can you construct a twin for me?
 
-That might be possible. Please [email us](mailto:kaai@tu-dresden.de) your desired model and topical focus, and we will get back to you.
+That might be possible. Please [email us](mailto:simon.razniewski@tu-dresden.de) your desired model and topical focus, and we will get back to you.
