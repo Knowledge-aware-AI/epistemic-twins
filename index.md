@@ -42,22 +42,22 @@ From [*Epistemic Twins: Enabling a Symbolic Science of Language Model Knowledge*
 
 LLMs store knowledge in billions of numerical parameters that humans cannot directly read. Benchmarks reveal only what researchers choose to ask about. Epistemic twins take a broader approach: we aim to make a model’s factual knowledge explicit, so people can explore, inspect, and audit it.
 
-### LLM answers are sensitive to minor reformulations in prompts. Do your twins really capture what the models believe in (precision)?
+### Do the twins faithfully capture what models believe (precision)?
 
-Fair objection. Our twins are a simplification of what LLMs really are, and “all models are wrong, but some are useful”. Defining LLM knowledge is an [active research field](https://arxiv.org/abs/2405.21030). Depending on the protocol, we find that LLMs strongly believe in 76–90% of statements in our twins.
+LLM answers can change with small variations in wording, so any twin is an approximation. Defining what it means for an LLM to “know” or “believe” something remains an [active research field](https://arxiv.org/abs/2405.21030). Under the protocols we tested, 76–90% of statements in our twins meet our criterion for strong model belief.
 
-### LLM answers are sensitive to minor reformulations in prompts. Do your twins really capture all that the models believe in (recall)?
+### Do the twins capture everything a model knows (recall)?
 
-For monetary reasons, none of our open-domain twins has exhausted the LLM's internal knowledge graph yet. All were ad-hoc terminated. The domain-specific twins, in turn, represent complete graph exploration. Still, we can't rule out further beliefs.
+Because of API costs, we stopped all open-domain runs before exploration finished. Our domain-specific runs completed graph exploration under the chosen protocol. Neither result rules out additional beliefs that different prompts or protocols might reveal.
 
-### But don't LLMs know more than facts?
+### Don’t LLMs know more than facts?
 
-Indeed, LLMs know about language, commonsense properties and rules, capabilities (how to rhyme, or construct recipes), and more. These types of knowledge are out of scope so far.
+Yes. LLMs also encode knowledge about language, commonsense rules, and skills such as rhyming or composing recipes. Our work so far focuses on factual knowledge.
 
-### This sounds cool, how can I get started?
+### How can I get started?
 
-Download our twins and play with them. Or, [get the code](https://github.com/Knowledge-aware-AI/) and construct your own twins.
+Download a twin above to explore or analyze it, or [use our code](https://github.com/Knowledge-aware-AI/) to construct your own.
 
 ### Can you construct a twin for me?
 
-That might be possible. Please [email us](mailto:simon.razniewski@tu-dresden.de) your desired model and topical focus, and we will get back to you.
+Possibly. [Email us](mailto:simon.razniewski@tu-dresden.de) the model and topic you have in mind, and we’ll discuss what is feasible.
