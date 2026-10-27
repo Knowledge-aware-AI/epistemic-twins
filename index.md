@@ -40,7 +40,7 @@ From [*Epistemic Twins: Enabling a Symbolic Science of Language Model Knowledge*
 
 ### What is this good for?
 
-LLMs are a prime example of latent knowledge representation, i.e., there is no obvious way to read them as a human by looking at their parameters. Benchmarks only sample them by what the experimenters choose to ask. With epistemic twins, we aim to extract the entirety of their factual knowledge, for human inspection and auditing.
+LLMs store knowledge in billions of numerical parameters that humans cannot directly read. Benchmarks reveal only what researchers choose to ask about. Epistemic twins take a broader approach: we aim to make a model’s factual knowledge explicit, so people can explore, inspect, and audit it.
 
 ### LLM answers are sensitive to minor reformulations in prompts. Do your twins really capture what the models believe in (precision)?
 
