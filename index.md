@@ -35,6 +35,7 @@ From [*Epistemic Twins: Enabling a Symbolic Science of Language Model Knowledge*
 | The Big Bang Theory | GPT-4.1-mini | miniGPTKB (GPTKB 1.x) | 219 entities; 1,295 triples | [Download SQLite](https://github.com/Knowledge-aware-AI/miniGPTKB/raw/refs/heads/main/KBs/tbbtGPTKB/tbbtGPTKB.db) | 102.40 kB | [Findings EACL 2026](https://aclanthology.org/2026.findings-eacl.113/) |
 | DAX 40 | GPT-4.1-mini | miniGPTKB (GPTKB 1.x) | 362 entities; 2,056 triples | [Download SQLite](https://github.com/Knowledge-aware-AI/miniGPTKB/raw/refs/heads/main/KBs/dax40GPTKB/dax40GPTKB.db) | 131.07 kB | [Findings EACL 2026](https://aclanthology.org/2026.findings-eacl.113/) |
 | Dresden | GPT-5-mini | LLMpedia | 1,000 articles | [Browse collection](https://llmpedia.net/dresden/index.html) | — | [EMNLP 2026](https://arxiv.org/abs/2603.24080) |
+| Germany | Gemma 4 26B | GPTKB Studio | 29,423 entities; 223,237 triples | [Download SQLite](https://github.com/Knowledge-aware-AI/epistemic-twins/raw/refs/heads/main/data/germany-gptkb.db) | 408.39 MB | — |
 
 ## FAQ
 
